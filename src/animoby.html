@@ -1,0 +1,21 @@
+<polymer-element name="animoby"
+		 attributes="user proj projid width height projtype initialtime fullscreen viewhint minplayer autoplay frameborder">
+
+	<template>
+		<iframe src="https://www.animoby.com/player/{{projtype}}.php?path={{user}}&project={{proj}}&dwidth={{width}}&dheight={{height - 40}}&initialTime={{initialtime}}&fullScreen={{fullscreen}}&viewHint={{viewhint}}&minPlayer={{minplayer}}&autoPlay={{autoplay}}&id={{projid}}" width="{{width}}" height="{{height}}" scrolling="no" frameBorder="{{frameborder}}"></iframe>
+	</template>
+
+	<script>
+		Polymer('animoby', {
+			projtype: 'default',
+			initialtime: '-1',
+			fullscreen: 'false',
+			viewhint: 'true',
+			minplayer: 'false',
+			autoplay: 'true',
+			frameborder: 0,
+			created: function () {}
+		});
+	</script>
+
+</polymer-element>
