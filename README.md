@@ -1,6 +1,6 @@
 # &lt;animoby&gt;
 
-Web Component wrapper for AniMoby player using Polymer.
+Web Component wrapper for [AniMoby](https://www.animoby.com) player using Polymer.
 
 > Maintained by [Vagner Santana](https://github.com/vagnervjs).
 
@@ -25,7 +25,7 @@ Web Component wrapper for AniMoby player using Polymer.
 3. Start using it!
 
 	```html
-	<animoby width="650" height="425" user="admin" proj="4e299d5c194f5f6652af4b0b96d34695" projid="1889"></animoby>	```
+	<animoby width="650" height="425" user="admin" proj="4e299d5c194f5f6652af4b0b96d34695" projid="1889"></animoby>```
 
 ## Options
 
