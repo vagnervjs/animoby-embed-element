@@ -14,7 +14,11 @@
 			minplayer: 'false',
 			autoplay: 'true',
 			frameborder: 0,
-			created: function () {}
+			created: function () {
+				console.log('Element was created');
+				// Fix display bug on Google Chrome (stable version)
+				document.querySelector('.show').style.display = "block";
+			}
 		});
 	</script>
 
