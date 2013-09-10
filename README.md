@@ -1,4 +1,4 @@
-# &lt;animoby&gt;
+# &lt;animoby-embed&gt;
 
 Web Component wrapper for [AniMoby](https://www.animoby.com) player using Polymer.
 
@@ -25,7 +25,8 @@ Web Component wrapper for [AniMoby](https://www.animoby.com) player using Polyme
 3. Start using it!
 
 	```html
-	<animoby width="650" height="425" user="admin" proj="4e299d5c194f5f6652af4b0b96d34695" projid="1889"></animoby>```
+	<animoby-embed width="650" height="425" user="admin" proj="4e299d5c194f5f6652af4b0b96d34695" projid="1889"></animoby-embed>
+	```
 
 ## Options
 
@@ -57,6 +58,8 @@ Attribute  | Options                   | Default             | Description
 
 * v0.0.1 September 4, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
+* v0.0.2 September 10, 2013
+	* Changing name to animoby-embed in order to follow the spec
 
 ## License
 
