@@ -19,7 +19,7 @@ Web Component wrapper for [AniMoby](https://www.animoby.com) player using Polyme
 2. Import Custom Element:
 
 	```html
-	<link rel="import" href="src/animoby.html">
+	<link rel="import" href="src/animoby-embed.html">
 	```
 
 3. Start using it!
